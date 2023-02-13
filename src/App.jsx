@@ -6,7 +6,7 @@ import CardFilm from "./component/CardFilm";
 
 class App extends Component {
   state = {
-    film: "Iron Man",
+    film: "Harry Potter",
   };
 
   render() {
@@ -21,13 +21,13 @@ class App extends Component {
                 value={this.state.film}
                 onChange={(e) => this.setState({ film: e.target.value })}
               >
-                <option>Iron Man</option>
-                <option>Black Panther</option>
-                <option>Doctor Strange</option>
-                <option>The Batman</option>
-                <option>Spiderman</option>
-                <option>Black Widow</option>
-                <option>Wonder Woman</option>
+                <option>Harry Potter</option>
+                <option>Hunger Games</option>
+                <option>Scary Movie</option>
+                <option>Twilight</option>
+                <option>Divergent</option>
+                <option>Insurgent</option>
+                <option>Love</option>
               </Form.Select>
             </Col>
           </Row>
